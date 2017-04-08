@@ -1,0 +1,56 @@
+.root   {
+    -fx-background-color:#f0ddff;
+    -fx-font-size: 9pt; 
+}
+.label  {
+    -fx-text-fill: #537F76;
+}
+/*Button*/
+.button {
+    -fx-background-color:#dddddd;
+    -fx-text-fill: #415156;
+    -fx-background-radius: 1;
+    -fx-border-color: #d6d6d6;
+}
+.button:hover   {
+    -fx-background-color:#f4f4f4;
+}
+
+/*Text Field*/
+.text-field {
+    -fx-background-color: #e1cfef, #f0ddff, #f0ddff;
+    /*Insets: top, left, bottom, right*/
+    -fx-background-insets: 0 0 -1 0, 0 0 0 0, 0 0 0 0;
+}
+.text-field:hover   {
+    -fx-background-color: #82a3ad, #f0ddff, #f0ddff;
+    -fx-background-insets: 0 0 -1 0, 0 0 0 0, 0 0 0 0;
+}
+.text-field:focused   {
+    -fx-background-color: #82a3ad, #f0ddff, #f0ddff;
+    -fx-background-insets: 0 0 -1 0, 0 0 0 0, 0 0 0 0;
+}
+
+#exit-hover:hover {
+    -fx-border-color: null;
+    -fx-background-color:#f4152f;
+    -fx-text-fill: #ffffff;
+}
+
+/*Menu bar*/
+.menu-bar   {
+    -fx-background-color: #82a3ad, #f0ddff, #f0ddff;
+    -fx-background-insets: 0 0 -1 0, 0 0 0 0, 0 0 0 0;
+}
+
+/*Menu Items*/
+.menu-item:hover, .menu-item:focused {
+    -fx-background-color:#f4f4f4;
+}
+
+.menu:hover, .menu:expanded, .menu:focused, .menu:pressed {
+    -fx-background-color:#f4f4f4;
+}
+.menu   {
+    -fx-label-padding: 3px;
+}
